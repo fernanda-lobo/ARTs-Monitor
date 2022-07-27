@@ -84,9 +84,10 @@ public class LogonField extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        SearchScreen searchScreen = new SearchScreen();
-        searchScreen.setVisible(true);
+       //Pulls the SearcScreen screen when clicking the button
+        new SearchScreen().setVisible(true);
         dispose();
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     
